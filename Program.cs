@@ -59,6 +59,15 @@ class Program
                 }
             } while (!validPass);
             person[i].password = p;
+
+            using (StreamWriter sw = new StreamWriter("TEST.txt", true))
+            {
+                sw.WriteLine($"Person: {i + 1}");
+                sw.WriteLine($"Name: {person[i].name}");
+                sw.WriteLine($"Email: {person[i].email}");
+                sw.WriteLine($"Password: {person[i].password}");
+                sw.WriteLine("-------------------------------");
+            }
         }
     }
 }
