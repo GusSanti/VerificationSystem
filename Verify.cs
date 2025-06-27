@@ -1,7 +1,7 @@
 using System.Collections.Specialized;
 using System.Security;
 
-class Verify
+public class Verify
 {
     public static bool VerifyName(string name)
     {

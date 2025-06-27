@@ -1,7 +1,7 @@
-class Person
+public class Person
 {
-    string name;
-    string email;
-    string password;
-    string age;
+    public string name;
+    public string email;
+    public string password;
+    public string age;
 }

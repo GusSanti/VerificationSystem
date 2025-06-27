@@ -1,0 +1,15 @@
+C:\Users\gusta\OneDrive\Documentos\ProjetosGit\VerificationSystem\bin\Debug\net9.0\VerificationSystem.exe
+C:\Users\gusta\OneDrive\Documentos\ProjetosGit\VerificationSystem\bin\Debug\net9.0\VerificationSystem.deps.json
+C:\Users\gusta\OneDrive\Documentos\ProjetosGit\VerificationSystem\bin\Debug\net9.0\VerificationSystem.runtimeconfig.json
+C:\Users\gusta\OneDrive\Documentos\ProjetosGit\VerificationSystem\bin\Debug\net9.0\VerificationSystem.dll
+C:\Users\gusta\OneDrive\Documentos\ProjetosGit\VerificationSystem\bin\Debug\net9.0\VerificationSystem.pdb
+C:\Users\gusta\OneDrive\Documentos\ProjetosGit\VerificationSystem\obj\Debug\net9.0\VerificationSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gusta\OneDrive\Documentos\ProjetosGit\VerificationSystem\obj\Debug\net9.0\VerificationSystem.AssemblyInfoInputs.cache
+C:\Users\gusta\OneDrive\Documentos\ProjetosGit\VerificationSystem\obj\Debug\net9.0\VerificationSystem.AssemblyInfo.cs
+C:\Users\gusta\OneDrive\Documentos\ProjetosGit\VerificationSystem\obj\Debug\net9.0\VerificationSystem.csproj.CoreCompileInputs.cache
+C:\Users\gusta\OneDrive\Documentos\ProjetosGit\VerificationSystem\obj\Debug\net9.0\VerificationSystem.sourcelink.json
+C:\Users\gusta\OneDrive\Documentos\ProjetosGit\VerificationSystem\obj\Debug\net9.0\VerificationSystem.dll
+C:\Users\gusta\OneDrive\Documentos\ProjetosGit\VerificationSystem\obj\Debug\net9.0\refint\VerificationSystem.dll
+C:\Users\gusta\OneDrive\Documentos\ProjetosGit\VerificationSystem\obj\Debug\net9.0\VerificationSystem.pdb
+C:\Users\gusta\OneDrive\Documentos\ProjetosGit\VerificationSystem\obj\Debug\net9.0\VerificationSystem.genruntimeconfig.cache
+C:\Users\gusta\OneDrive\Documentos\ProjetosGit\VerificationSystem\obj\Debug\net9.0\ref\VerificationSystem.dll
