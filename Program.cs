@@ -1,4 +1,6 @@
-﻿namespace VerificationSystem;
+﻿using System.Security.Cryptography.X509Certificates;
+
+namespace VerificationSystem;
 
 class Program
 {
@@ -60,12 +62,27 @@ class Program
             } while (!validPass);
             person[i].password = p;
 
+            
+            bool validAge;
+            int a;
+            do
+            {
+                Console.WriteLine($"Enter the age of the person:  {i + 1}");
+                a = int.Parse(Console.ReadLine());
+                validAge = Verify.VerifyAge(a);
+                if(!validAge) {
+                    Console.WriteLine("Invalid age. Try again.");
+                }
+            } while(!validAge);
+            person[i].age = a;
+
             using (StreamWriter sw = new StreamWriter("TEST.txt", true))
             {
                 sw.WriteLine($"Person: {i + 1}");
                 sw.WriteLine($"Name: {person[i].name}");
                 sw.WriteLine($"Email: {person[i].email}");
                 sw.WriteLine($"Password: {person[i].password}");
+                sw.WriteLine($"Age: {person[i].age}");
                 sw.WriteLine("-------------------------------");
             }
         }

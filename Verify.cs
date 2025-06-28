@@ -1,5 +1,6 @@
 using System.Collections.Specialized;
 using System.Security;
+using System.Security.Cryptography.X509Certificates;
 
 public class Verify
 {
@@ -83,5 +84,14 @@ public class Verify
             return true;
         }
         return false;
+    }
+
+    public static bool VerifyAge(int age)
+    {
+        if (age > 150 || age < 0)
+        {
+            return false;
+        }
+        return true;
     }
 }
